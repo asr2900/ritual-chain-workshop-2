@@ -30,7 +30,7 @@ export default defineConfig({
       type: "edr-simulated",
       chainType: "l1",
     },
-        // Added: lets scripts target a standalone `hardhat node` on port 8545,
+    // Added: lets scripts target a standalone `hardhat node` on port 8545,
     // so the repo stays usable while the Ritual testnet is unreachable.
     localhost: {
       type: "http",
